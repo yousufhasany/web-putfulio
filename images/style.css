@@ -4,9 +4,10 @@ h1{
 
 }
 body{
+    margin: 0%;
     font-family: 'Nunito', sans-serif;
 }
-.my-name{
+.orange-name{
     color: orange;
 }
 .half-width{
@@ -16,5 +17,54 @@ body{
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 60%;
+}
+.top-banner{
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(lightsalmon,tomato);
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+p{
+    color: dimgrey;
+}
+.dream-area{
+    background-image: url("dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-exprience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 6px;
+    height: 70%;
+    background-color: white;
+}
+.Exprience-area{
+    background-image: url("exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+
+}
+#Ai{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
 }
